@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "scientific_name": "Zea mays",
+  "common_name": "Maize (corn)",
+  "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=2175",
+  "source_reference": "FAO ECOCROP Zea mays datasheet (values supplied by project team)",
+  "temperature_c": {
+    "absolute_min": 10.0,
+    "optimal_min": 18.0,
+    "optimal_max": 33.0,
+    "absolute_max": 47.0
+  },
+  "annual_rainfall_mm": {
+    "absolute_min": 400.0,
+    "optimal_min": 600.0,
+    "optimal_max": 1200.0,
+    "absolute_max": 1800.0
+  },
+  "soil_ph": {
+    "absolute_min": 4.5,
+    "optimal_min": 5.0,
+    "optimal_max": 7.0,
+    "absolute_max": 8.5
+  },
+  "ecocrop_cycle_days": {
+    "min": 65,
+    "max": 365
+  },
+  "model_cycle_days": 110,
+  "temperature_exceedance_c": 47.0,
+  "temperature_above_optimal_c": 33.0,
+  "rain_day_threshold_mm": 1.0,
+  "heavy_rain_diagnostic_mm_per_day": 30.0,
+  "soil_depth_optimal": "medium (50\u2013150 cm)",
+  "soil_depth_absolute": "shallow (20\u201350 cm)",
+  "soil_fertility_optimal": "high",
+  "soil_fertility_absolute": "low",
+  "soil_salinity_optimal": "low (<4 dS/m)",
+  "soil_salinity_absolute": "medium (4\u201310 dS/m)",
+  "soil_texture": "not specified in supplied reference",
+  "soil_drainage": "not specified in supplied reference",
+  "light_optimal": "very bright",
+  "light_absolute": "clear skies to very bright",
+  "altitude_absolute_max_m": 4000,
+  "reference_start_year": 2016,
+  "reference_end_year": 2025,
+  "notes": [
+    "ECOCROP rainfall requirements are annual; crop-window rain must NOT be directly scored against these bounds.",
+    "110-day historical growing windows are illustrative; the broad ECOCROP cycle spans 65\u2013365 days and does not identify a local cultivar.",
+    "Daily Tmax > 33 C (upper optimal range) and > 47 C (absolute limit) are descriptive diagnostics only, not phenology-validated crop-failure rules.",
+    "30 mm/day is an analyst-defined rainfall concentration diagnostic, not a validated flooding or agronomic threshold.",
+    "Soil depth, fertility and salinity requirements are documented but not automatically measured by NASA POWER.",
+    "The ECOCROP source did not specify soil drainage or texture requirements in the supplied sheet."
+  ]
+}

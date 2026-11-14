@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "scientific_name": "Oryza sativa",
+  "common_name": "Palay (rice)",
+  "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+  "temperature_c": {
+    "absolute_min": 10.0,
+    "optimal_min": 20.0,
+    "optimal_max": 30.0,
+    "absolute_max": 36.0
+  },
+  "annual_rainfall_mm": {
+    "absolute_min": 1000.0,
+    "optimal_min": 1500.0,
+    "optimal_max": 2000.0,
+    "absolute_max": 4000.0
+  },
+  "soil_ph": {
+    "absolute_min": 4.5,
+    "optimal_min": 5.5,
+    "optimal_max": 7.0,
+    "absolute_max": 9.0
+  },
+  "ecocrop_cycle_days": {
+    "min": 80,
+    "max": 180
+  },
+  "model_cycle_days": 120,
+  "temperature_exceedance_c": 36.0,
+  "rain_day_threshold_mm": 1.0,
+  "heavy_rain_diagnostic_mm_per_day": 30.0,
+  "reference_start_year": 2016,
+  "reference_end_year": 2025,
+  "notes": [
+    "ECOCROP rainfall bounds refer to annual totals, not the crop cycle.",
+    "The 120-day cycle is illustrative, not a cultivar-specific duration.",
+    "Daily Tmax > 36 C is a diagnostic using ECOCROP's absolute temperature reference, not a validated lethal-heat threshold.",
+    "30 mm daily precipitation is a descriptive diagnostic threshold, not a flooding or crop-failure threshold."
+  ]
+}

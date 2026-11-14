@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "scientific_name": "Nicotiana tabacum",
+  "common_name": "Tobacco",
+  "source_url": null,
+  "source_reference": "FAO ECOCROP Nicotiana tabacum datasheet (values supplied by project team)",
+  "temperature_c": {
+    "absolute_min": 7.0,
+    "optimal_min": 15.0,
+    "optimal_max": 30.0,
+    "absolute_max": 35.0
+  },
+  "annual_rainfall_mm": {
+    "absolute_min": 350.0,
+    "optimal_min": 500.0,
+    "optimal_max": 750.0,
+    "absolute_max": 3000.0
+  },
+  "soil_ph": {
+    "absolute_min": 4.5,
+    "optimal_min": 5.0,
+    "optimal_max": 6.5,
+    "absolute_max": 7.5
+  },
+  "ecocrop_cycle_days": {
+    "min": 70,
+    "max": 150
+  },
+  "model_cycle_days": 110,
+  "temperature_exceedance_c": 35.0,
+  "rain_day_threshold_mm": 1.0,
+  "heavy_rain_diagnostic_mm_per_day": 30.0,
+  "soil_drainage_preference": "well-drained (dry spells)",
+  "soil_depth_preference": "deep (>150 cm)",
+  "soil_depth_absolute": "medium (50-150 cm)",
+  "soil_texture_optimal": [
+    "medium",
+    "light"
+  ],
+  "soil_texture_absolute": [
+    "heavy",
+    "medium",
+    "light"
+  ],
+  "soil_salinity": "low (<4 dS/m)",
+  "altitude_absolute_max_m": 1800,
+  "early_growth_killing_temperature_c": -1.0,
+  "wind_susceptibility": true,
+  "hail_susceptibility": true,
+  "soil_fertility": "moderate",
+  "light_intensity_optimal": "very bright",
+  "light_intensity_absolute": "very bright to light shade",
+  "photoperiod": [
+    "short-day (<12 hours)",
+    "neutral-day (12-14 hours)"
+  ],
+  "killing_temperature_during_rest_c": -3.0,
+  "climate_zones_listed": [
+    "Aw",
+    "Ar",
+    "Bs",
+    "Cf",
+    "Cs",
+    "Cw",
+    "Do",
+    "Dc",
+    "Df",
+    "Dw"
+  ],
+  "reference_start_year": 2016,
+  "reference_end_year": 2025,
+  "notes": [
+    "ECOCROP rainfall bounds refer to annual totals, not the crop cycle.",
+    "The 110-day growing window is illustrative within ECOCROP 70\u2013150 days, not a cultivar-specific duration.",
+    "Daily Tmax > 35 C is an ECOCROP upper-limit exposure diagnostic, not a validated crop-failure threshold.",
+    "30 mm daily precipitation is a descriptive diagnostic threshold, not a flooding or crop-failure threshold.",
+    "Soil drainage, depth, texture, salinity and wind exposure are crop requirements but cannot be inferred reliably from NASA POWER daily climate alone."
+  ]
+}
